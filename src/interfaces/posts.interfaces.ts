@@ -14,3 +14,8 @@ export interface IPosts {
 export interface IDisplay {
   fields: IFields;
 }
+
+export interface IPostsPage {
+  mode: string;
+  setMode: (mode: string) => void;
+}
