@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/tapiotest/static/js/main.d7613189.js",
+    "static/js/787.82fa6d0f.chunk.js": "/tapiotest/static/js/787.82fa6d0f.chunk.js",
+    "index.html": "/tapiotest/index.html",
+    "main.d7613189.js.map": "/tapiotest/static/js/main.d7613189.js.map",
+    "787.82fa6d0f.chunk.js.map": "/tapiotest/static/js/787.82fa6d0f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.d7613189.js"
+  ]
+}
