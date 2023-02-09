@@ -2,7 +2,7 @@
 
 ![image](./src/assets/images/ReadmeImage.png "image")
 
-## [ ----> [View live 🚀](https://www.afitpilot.com) <---- ]
+## [ ----> [View live 🚀](https://elmiriyounes.github.io/tapiotest) <---- ]
 
 ### 🛠 Built with
 
