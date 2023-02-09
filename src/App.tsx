@@ -32,7 +32,7 @@ const App: FC = () => {
       <Router>
         <Routes>
           <Route
-            path="/"
+            path="/tapiotest"
             element={<PostsPage mode={mode} setMode={setMode} />}
           />
           <Route path="/*" element={<Error404 />} />
