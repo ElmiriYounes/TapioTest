@@ -2,7 +2,7 @@
 
 ![image](./src/assets/images/ReadmeImage.png "image")
 
-## [ ----> [View live 🚀](https://elmiriyounes.github.io/tapiotest) <---- ]
+## [ ----> [View live 🚀](https://elmiriyounes.github.io/TapioTest) <---- ]
 
 ### 🛠 Built with
 
