@@ -27,10 +27,21 @@ const App: FC = () => {
       <Router>
         <Routes>
           <Route
-            path="/tapiotest"
+            path={
+              window.location.hostname.substring(0, 9) === "localhost"
+                ? "/"
+                : "/TapioTest"
+            }
             element={<PostsPage mode={mode} setMode={setMode} />}
           />
-          <Route path="/tapiotest/*" element={<Error404 />} />
+          <Route
+            path={
+              window.location.hostname.substring(0, 9) === "localhost"
+                ? "/*"
+                : "/TapioTest/*"
+            }
+            element={<Error404 />}
+          />
         </Routes>
       </Router>
     </ThemeProvider>
