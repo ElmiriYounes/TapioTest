@@ -30,7 +30,7 @@ const App: FC = () => {
             path="/tapiotest"
             element={<PostsPage mode={mode} setMode={setMode} />}
           />
-          <Route path="/*" element={<Error404 />} />
+          <Route path="/tapiotest/*" element={<Error404 />} />
         </Routes>
       </Router>
     </ThemeProvider>
