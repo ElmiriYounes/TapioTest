@@ -1,15 +1,10 @@
-import axios, { AxiosResponse } from "axios";
 import React, { FC, useEffect, useState } from "react";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Posts from "./components/posts/Posts";
 import { GlobalStyle } from "./globalStyle";
 import { lightTheme } from "./themes/lightTheme";
-import { IData } from "./interfaces/TablePosts.interfaces";
 import { darkTheme } from "./themes/darkTheme";
-import Mode from "./components/mode/Mode";
 import Error404 from "./components/errors/Error404";
-import Loading from "./components/loading/Loading";
 import PostsPage from "./pages/PostsPage";
 
 const App: FC = () => {
